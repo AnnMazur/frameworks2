@@ -2,7 +2,7 @@ namespace Pr2.ModulesAndDi.Services;
 
 public class LoggerService : ILoggerService
 { 
-private int _count = 0;
+private int _count = 1;
 
 public void Log(string message)
 {
